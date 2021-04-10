@@ -1,0 +1,15 @@
+https://github.com/join
+
+git config --global user.name "My Name"
+git config --global user.email myEmail@example.com
+
+cd /d Desktop/git_exercise/
+git init
+
+git status
+git add --all
+git commit -m "adding my files to my repository"
+
+git remote add origin https://github.com/tutorialzine/awesome-project.git
+
+git push -u origin master
